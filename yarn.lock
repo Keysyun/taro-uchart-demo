@@ -1488,7 +1488,7 @@
 
 "@tarojs/components@3.6.6":
   version "3.6.6"
-  resolved "https://registry.npmmirror.com/@tarojs/components/-/components-3.6.6.tgz"
+  resolved "https://registry.npmmirror.com/@tarojs/components/-/components-3.6.6.tgz#aa7070d99f8eac9f960eacb163c02fdf5a9a7fdc"
   integrity sha512-GWxFtKeiTNajkIyNjyrkEyvrtqOIcrdWSF46A5pCbtmpjdsloN6NX9ms4fwvSjoyci8VZ+sBimnviIqTpBfL+w==
   dependencies:
     "@stencil/core" "^2.22.2"
@@ -1504,7 +1504,7 @@
 
 "@tarojs/helper@3.6.6":
   version "3.6.6"
-  resolved "https://registry.npmmirror.com/@tarojs/helper/-/helper-3.6.6.tgz"
+  resolved "https://registry.npmmirror.com/@tarojs/helper/-/helper-3.6.6.tgz#17aa3c98535f2789988cc2b4847518e7724d81a8"
   integrity sha512-feY1z2rqV+5g8ZBagcOcjbI0P7jq9gIFW8664MXc5iFNxgUbU2w8eNbwRv9zAb1/U9cZoWxx+QGSw4xyTKy/6A==
   dependencies:
     "@babel/core" "^7.14.5"
@@ -1535,7 +1535,7 @@
 
 "@tarojs/plugin-framework-react@3.6.6":
   version "3.6.6"
-  resolved "https://registry.npmmirror.com/@tarojs/plugin-framework-react/-/plugin-framework-react-3.6.6.tgz"
+  resolved "https://registry.npmmirror.com/@tarojs/plugin-framework-react/-/plugin-framework-react-3.6.6.tgz#475e9dadf5239eb190e4d2e6a3ca9543f924ccaa"
   integrity sha512-Umr1rB9Sf3QdcWUWYjY2BBUumjGKsy6txYjw8ntDU6R2MqsjiXGVD759D1q6L8hViYW3Zh1LNr8dunGu1lr9uw==
   dependencies:
     "@tarojs/helper" "3.6.6"
@@ -1548,7 +1548,7 @@
 
 "@tarojs/plugin-platform-alipay@3.6.6":
   version "3.6.6"
-  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-alipay/-/plugin-platform-alipay-3.6.6.tgz"
+  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-alipay/-/plugin-platform-alipay-3.6.6.tgz#de721e9cf6a2909162853bd922a036b093d6102f"
   integrity sha512-65SFA8Vmlwf5ZflI+jXN3W2nrh2NYM3GRAjOcZDIPE+6Je33Bi/7jNaTn3t+YwJlcVjY6djp3/dmC+xwc7skfA==
   dependencies:
     "@tarojs/components" "3.6.6"
@@ -1557,7 +1557,7 @@
 
 "@tarojs/plugin-platform-h5@3.6.6":
   version "3.6.6"
-  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-h5/-/plugin-platform-h5-3.6.6.tgz"
+  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-h5/-/plugin-platform-h5-3.6.6.tgz#08aad10cd54ea2926c6f060b57c88fe7f39cdd7d"
   integrity sha512-NVn9an5hcdWAtqylDirbCHBGdwEhk0VYOzspeubemNLQ/lGLkJHU50CfOF42RBZA1sAfwwh6JB1LNILMdtCaPA==
   dependencies:
     "@tarojs/components" "3.6.6"
@@ -1571,7 +1571,7 @@
 
 "@tarojs/plugin-platform-jd@3.6.6":
   version "3.6.6"
-  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-jd/-/plugin-platform-jd-3.6.6.tgz"
+  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-jd/-/plugin-platform-jd-3.6.6.tgz#48f3b401ab52e5ff8c8fe28c79ae6e9cfd1def20"
   integrity sha512-AlMmnENciAVhI0/tRZsE5sRThVJ1ESR8oxy974XcAeS3K0DhQhAHVNJ9bVm534RZjGhJ05YGARFtQqJZnNfV3g==
   dependencies:
     "@tarojs/service" "3.6.6"
@@ -1579,7 +1579,7 @@
 
 "@tarojs/plugin-platform-qq@3.6.6":
   version "3.6.6"
-  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-qq/-/plugin-platform-qq-3.6.6.tgz"
+  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-qq/-/plugin-platform-qq-3.6.6.tgz#a272de78cfd85a1c43c46be485065c402d29dc49"
   integrity sha512-GPLUNeduZMG7wFmPZspfVTc2oSv9zlanKjJn/7uUDPA3HKIbflcVehkPn2Cq28BuvSvY8q3oqFUPMGvKP7jHnw==
   dependencies:
     "@tarojs/plugin-platform-weapp" "3.6.6"
@@ -1588,7 +1588,7 @@
 
 "@tarojs/plugin-platform-swan@3.6.6":
   version "3.6.6"
-  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-swan/-/plugin-platform-swan-3.6.6.tgz"
+  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-swan/-/plugin-platform-swan-3.6.6.tgz#6e74221ee6dccfc53ebca5ad822e3414b519e176"
   integrity sha512-ISylMI0/7cZ7S/nKwDvkKke76h2m+TtcCqrhvmm4Fo/RyFdxPtZu/wtJ62WSw39dcU5Jec6UuP/YqsMGYEqcWw==
   dependencies:
     "@tarojs/components" "3.6.6"
@@ -1597,7 +1597,7 @@
 
 "@tarojs/plugin-platform-tt@3.6.6":
   version "3.6.6"
-  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-tt/-/plugin-platform-tt-3.6.6.tgz"
+  resolved "https://registry.npmmirror.com/@tarojs/plugin-platform-tt/-/plugin-platform-tt-3.6.6.tgz#e749156481e8f28c13e00508ea6dc861ddcdde18"
   integrity sha512-NgHSRX9tejcQQm3ATc4zaG6mtHYr1c7udhaaFrHxCZJeLqsWWlw7f06FIpghKdbhmKCUcqXUgtbQOwdcvb9P1Q==
   dependencies:
     "@tarojs/components" "3.6.6"
@@ -1615,7 +1615,7 @@
 
 "@tarojs/react@3.6.6":
   version "3.6.6"
-  resolved "https://registry.npmmirror.com/@tarojs/react/-/react-3.6.6.tgz"
+  resolved "https://registry.npmmirror.com/@tarojs/react/-/react-3.6.6.tgz#a71e4c50e75a1578c627d408ebbed77d5bbf8dbc"
   integrity sha512-FX+hXFmIdwfiRBSTYcWyjRA4T6hjybIu0FZ43HZfddZhVbzYWvED4nv6NI5CJhh+PRhpjMc2JsH3RyXiitMVXA==
   dependencies:
     "@tarojs/runtime" "3.6.6"

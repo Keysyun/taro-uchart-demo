@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @antv/f2-renderer-wx
+  C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
 
 PATH: 
   C:\Users\lenovo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\lenovo\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;D:\微信web开发者工具\dll;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
@@ -14,17 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/@antv%2ff2-renderer-wx: Not found
-      at params.callback [as _callback] (C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
-      at self.callback (C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
-      at Request.emit (node:events:513:28)
-      at Request.<anonymous> (C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
-      at Request.emit (node:events:513:28)
-      at IncomingMessage.<anonymous> (C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
-      at Object.onceWrapper (node:events:627:28)
-      at IncomingMessage.emit (node:events:525:35)
-      at endReadableNT (node:internal/streams/readable:1359:12)
-      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+  Error: ENOENT: no such file or directory, lstat 'E:\Project\Demo\taro-demo\node_modules\node-emoji'
 
 npm manifest: 
   {
@@ -64,22 +54,22 @@ npm manifest:
     ],
     "author": "",
     "dependencies": {
-      "@antv/f2": "^4.0.44",
       "@babel/runtime": "^7.7.7",
-      "@tarojs/components": "3.6.6",
-      "@tarojs/helper": "3.6.6",
-      "@tarojs/plugin-framework-react": "3.6.6",
-      "@tarojs/plugin-platform-alipay": "3.6.6",
-      "@tarojs/plugin-platform-h5": "3.6.6",
-      "@tarojs/plugin-platform-jd": "3.6.6",
-      "@tarojs/plugin-platform-qq": "3.6.6",
-      "@tarojs/plugin-platform-swan": "3.6.6",
-      "@tarojs/plugin-platform-tt": "3.6.6",
-      "@tarojs/plugin-platform-weapp": "3.6.6",
-      "@tarojs/react": "3.6.6",
-      "@tarojs/runtime": "3.6.6",
-      "@tarojs/shared": "3.6.6",
-      "@tarojs/taro": "3.6.6",
+      "@qiun/ucharts": "^2.5.0-20230101",
+      "@tarojs/components": "^3.0.29",
+      "@tarojs/helper": "^3.0.29",
+      "@tarojs/plugin-framework-react": "^3.0.29",
+      "@tarojs/plugin-platform-alipay": "^3.0.29",
+      "@tarojs/plugin-platform-h5": "^3.0.29",
+      "@tarojs/plugin-platform-jd": "^3.0.29",
+      "@tarojs/plugin-platform-qq": "^3.0.29",
+      "@tarojs/plugin-platform-swan": "^3.0.29",
+      "@tarojs/plugin-platform-tt": "^3.0.29",
+      "@tarojs/plugin-platform-weapp": "^3.0.29",
+      "@tarojs/react": "^3.0.29",
+      "@tarojs/runtime": "^3.0.29",
+      "@tarojs/shared": "^3.0.29",
+      "@tarojs/taro": "^3.0.29",
       "@types/sass": "^1.45.0",
       "lodash": "4.17.15",
       "react": "^18.0.0",
@@ -126,57 +116,6 @@ Lockfile:
     dependencies:
       "@jridgewell/gen-mapping" "^0.3.0"
       "@jridgewell/trace-mapping" "^0.3.9"
-  
-  "@antv/adjust@~0.2.5":
-    version "0.2.5"
-    resolved "https://registry.npmmirror.com/@antv/adjust/-/adjust-0.2.5.tgz#bb37bb4a0a87ca3f4b660848bc9ac07f02bcf5db"
-    integrity sha512-MfWZOkD9CqXRES6MBGRNe27Q577a72EIwyMnE29wIlPliFvJfWwsrONddpGU7lilMpVKecS3WAzOoip3RfPTRQ==
-    dependencies:
-      "@antv/util" "~2.0.0"
-      tslib "^1.10.0"
-  
-  "@antv/event-emitter@^0.1.2":
-    version "0.1.3"
-    resolved "https://registry.npmmirror.com/@antv/event-emitter/-/event-emitter-0.1.3.tgz#3e06323b9dcd55a3241ddc7c5458cfabd2095164"
-    integrity sha512-4ddpsiHN9Pd4UIlWuKVK1C4IiZIdbwQvy9i7DUSI3xNJ89FPUFt8lxDYj8GzzfdllV0NkJTRxnG+FvLk0llidg==
-  
-  "@antv/f2-graphic@^0.0.14":
-    version "0.0.14"
-    resolved "https://registry.npmmirror.com/@antv/f2-graphic/-/f2-graphic-0.0.14.tgz#8a26583ee4cea7abfeb14f66830aedf80b5b5d53"
-    integrity sha512-dFndFtvKTR5f7TpmQEdlx90z3HDA2O4BHaTlpMIJfFwwY2bM60KNs5l0pANyNImXxbpLl3mwbKe7RR4Vxsegrg==
-    dependencies:
-      "@antv/util" "~2.0.6"
-      "@babel/runtime" "^7.12.5"
-  
-  "@antv/f2@^4.0.44":
-    version "4.0.44"
-    resolved "https://registry.npmmirror.com/@antv/f2/-/f2-4.0.44.tgz#10d0ab57478056249f4c51b0b4ec53977c28c87e"
-    integrity sha512-eYNqAO4Kkw+sf1Gb1adi0RC89Iprm5s7W7O6mtshmwd07XwKZHMBnF2xADt+xR49pgnndxmOA7DBsH7zqfRSeg==
-    dependencies:
-      "@antv/adjust" "~0.2.5"
-      "@antv/event-emitter" "^0.1.2"
-      "@antv/f2-graphic" "^0.0.14"
-      "@antv/scale" "~0.3.3"
-      "@antv/util" "~2.0.6"
-      "@babel/runtime" "^7.12.5"
-      d3-cloud "~1.2.5"
-  
-  "@antv/scale@~0.3.3":
-    version "0.3.18"
-    resolved "https://registry.npmmirror.com/@antv/scale/-/scale-0.3.18.tgz#b911f431b3e0b9547b6a65f66d0d3fa295b5ef32"
-    integrity sha512-GHwE6Lo7S/Q5fgaLPaCsW+CH+3zl4aXpnN1skOiEY0Ue9/u+s2EySv6aDXYkAqs//i0uilMDD/0/4n8caX9U9w==
-    dependencies:
-      "@antv/util" "~2.0.3"
-      fecha "~4.2.0"
-      tslib "^2.0.0"
-  
-  "@antv/util@~2.0.0", "@antv/util@~2.0.3", "@antv/util@~2.0.6":
-    version "2.0.17"
-    resolved "https://registry.npmmirror.com/@antv/util/-/util-2.0.17.tgz#e8ef42aca7892815b229269f3dd10c6b3c7597a9"
-    integrity sha512-o6I9hi5CIUvLGDhth0RxNSFDRwXeywmt6ExR4+RmVAzIi48ps6HUy+svxOCayvrPBN37uE6TAc2KDofRo0nK9Q==
-    dependencies:
-      csstype "^3.0.8"
-      tslib "^2.0.3"
   
   "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.18.6", "@babel/code-frame@^7.21.4":
     version "7.21.4"
@@ -1226,7 +1165,7 @@ Lockfile:
       core-js-pure "^3.25.1"
       regenerator-runtime "^0.13.11"
   
-  "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.5", "@babel/runtime@^7.7.6", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4":
+  "@babel/runtime@^7.14.5", "@babel/runtime@^7.7.6", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4":
     version "7.21.5"
     resolved "https://registry.npmmirror.com/@babel/runtime/-/runtime-7.21.5.tgz"
     integrity sha512-8jI69toZqqcsnqGGqwGS4Qb1VwLOEp4hz+CXPywcvjs60u3B4Pom/U/7rm4W8tMOYEB+E9wgD0mW1l3r8qlI9Q==
@@ -1469,6 +1408,11 @@ Lockfile:
       loader-utils "^2.0.4"
       schema-utils "^3.0.0"
       source-map "^0.7.3"
+  
+  "@qiun/ucharts@^2.5.0-20230101":
+    version "2.5.0-20230101"
+    resolved "https://registry.npmmirror.com/@qiun/ucharts/-/ucharts-2.5.0-20230101.tgz#9ca5d646328ad4a002c745c28001f8916865c4f8"
+    integrity sha512-C7ccBgfPuGF6dxTRuMW0NPPMSCf1k/kh3I9zkRVBc5PaivudX/rPL+jd2Wty6gn5ya5L3Ob+YmYe09V5xw66Cw==
   
   "@sideway/address@^4.1.3":
     version "4.1.4"
@@ -4233,7 +4177,7 @@ Lockfile:
     dependencies:
       rrweb-cssom "^0.6.0"
   
-  csstype@^3.0.2, csstype@^3.0.8:
+  csstype@^3.0.2:
     version "3.1.2"
     resolved "https://registry.npmmirror.com/csstype/-/csstype-3.1.2.tgz"
     integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
@@ -4249,18 +4193,6 @@ Lockfile:
     integrity sha512-/fITjgjGU50vjQ4FH6eUoYu+iUoUKIXws2hL15JJpIR+BbTxaXQsMuuyjtNh2WqsSBS5nsaZHFsFecyw5CCAng==
     dependencies:
       array-find-index "^1.0.1"
-  
-  d3-cloud@~1.2.5:
-    version "1.2.5"
-    resolved "https://registry.npmmirror.com/d3-cloud/-/d3-cloud-1.2.5.tgz#3e91564f2d27fba47fcc7d812eb5081ea24c603d"
-    integrity sha512-4s2hXZgvs0CoUIw31oBAGrHt9Kt/7P9Ik5HIVzISFiWkD0Ga2VLAuO/emO/z1tYIpE7KG2smB4PhMPfFMJpahw==
-    dependencies:
-      d3-dispatch "^1.0.3"
-  
-  d3-dispatch@^1.0.3:
-    version "1.0.6"
-    resolved "https://registry.npmmirror.com/d3-dispatch/-/d3-dispatch-1.0.6.tgz#00d37bcee4dd8cd97729dd893a0ac29caaba5d58"
-    integrity sha512-fVjoElzjhCEy+Hbn8KygnmMS7Or0a9sI2UzGwoB7cCtvI1XpVN9GpoYlnb3xt2YV66oXYb1fLJ8GMvP4hdU1RA==
   
   dashdash@^1.12.0:
     version "1.14.1"
@@ -5535,11 +5467,6 @@ Lockfile:
     integrity sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==
     dependencies:
       pend "~1.2.0"
-  
-  fecha@~4.2.0:
-    version "4.2.3"
-    resolved "https://registry.npmmirror.com/fecha/-/fecha-4.2.3.tgz#4d9ccdbc61e8629b259fdca67e65891448d569fd"
-    integrity sha512-OP2IUU6HeYKJi3i0z4A19kHMQoLVs4Hc+DPqqxI2h/DPZHTm/vjsfC6P0b4jCMy14XizLBqvndQ+UilD7707Jw==
   
   figures@^3.0.0:
     version "3.2.0"
@@ -11478,7 +11405,7 @@ Lockfile:
     resolved "https://registry.npmmirror.com/tslib/-/tslib-1.14.1.tgz"
     integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
   
-  tslib@^2.0.0, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0:
+  tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0:
     version "2.5.0"
     resolved "https://registry.npmmirror.com/tslib/-/tslib-2.5.0.tgz"
     integrity sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==

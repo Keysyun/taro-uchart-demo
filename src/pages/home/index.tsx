@@ -14,38 +14,30 @@ export default function Home() {
     let cWidth = (750 / 750) * sysInfo.windowWidth
     //这里的 500 对应 css .charts 的 height
     let cHeight = (500 / 750) * sysInfo.windowWidth
-    console.log(cWidth, cHeight)
     getServerData(cWidth, cHeight)
-
-    return () => {
-      console.log('卸载')
-    }
   }, [])
 
   function getServerData(w, h) {
-    //模拟从服务器获取数据时的延时
-    setTimeout(() => {
-      //模拟服务器返回数据，如果数据格式和标准格式不同，需自行按下面的格式拼接
-      let res = {
-        categories: ['2018', '2019', '2020', '2021', '2022', '2023'],
-        series: [
-          {
-            name: '成交量A',
-            lineType: 'dash',
-            data: [35, 8, 25, 37, 4, 20],
-          },
-          {
-            name: '成交量B',
-            data: [70, 40, 65, 100, 44, 68],
-          },
-          {
-            name: '成交量C',
-            data: [100, 80, 95, 150, 112, 132],
-          },
-        ],
-      }
-      initChart('tavxpqXapwnHBiWfkViclDzTAOMYnEUU', res, w, h)
-    }, 500)
+    //模拟服务器返回数据，如果数据格式和标准格式不同，需自行按下面的格式拼接
+    let res = {
+      categories: ['2018', '2019', '2020', '2021', '2022', '2023'],
+      series: [
+        {
+          name: '成交量A',
+          lineType: 'dash',
+          data: [35, 8, 25, 37, 4, 20],
+        },
+        {
+          name: '成交量B',
+          data: [70, 40, 65, 100, 44, 68],
+        },
+        {
+          name: '成交量C',
+          data: [100, 80, 95, 150, 112, 132],
+        },
+      ],
+    }
+    initChart('tavxpqXapwnHBiWfkViclDzTAOMYnEUU', res, w, h)
   }
 
   function initChart(id, data, width, heigth) {
